@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package grpc.hello.world;
+
+option java_multiple_files = true;
+option java_package = "grpc.hello.world.models";
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+}
