@@ -1,12 +1,8 @@
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/src/main/java/grpc/hello/world/ExampleProtoMain.java
 /Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/src/main/java/grpc/hello/world/GreeterServiceImpl.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/src/main/java/grpc/hello/world/Main.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/grpc-java/grpc/hello/world/models/GreeterGrpc.java
 /Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloReply.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloReplyOrBuilder.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloRequest.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloRequestOrBuilder.java
 /Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloWorld.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/Person.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/PersonOrBuilder.java
-/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/PersonOuterClass.java
+/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/grpc-java/grpc/hello/world/models/GreeterGrpc.java
+/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/src/main/java/grpc/hello/world/Main.java
+/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloRequestOrBuilder.java
+/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloRequest.java
+/Users/rayanaribeirobonfanti/Downloads/grpc-hello-world/target/generated-sources/protobuf/java/grpc/hello/world/models/HelloReplyOrBuilder.java

@@ -97,7 +97,7 @@ public final class GreeterGrpc {
     /**
      */
     default void sayHello(grpc.hello.world.models.HelloRequest request,
-        io.grpc.stub.StreamObserver<grpc.hello.world.models.HelloReply> responseObserver) {
+        io.grpc.stub.StreamObserver<grpc.hello.world.models.HelloReply> responseObserver) throws InterruptedException {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getSayHelloMethod(), responseObserver);
     }
   }
@@ -207,9 +207,13 @@ public final class GreeterGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_SAY_HELLO:
-          serviceImpl.sayHello((grpc.hello.world.models.HelloRequest) request,
-              (io.grpc.stub.StreamObserver<grpc.hello.world.models.HelloReply>) responseObserver);
-          break;
+            try {
+                serviceImpl.sayHello((HelloRequest) request,
+                    (io.grpc.stub.StreamObserver<HelloReply>) responseObserver);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            break;
         default:
           throw new AssertionError();
       }

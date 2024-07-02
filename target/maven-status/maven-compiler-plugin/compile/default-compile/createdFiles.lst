@@ -1,5 +1,4 @@
 grpc/hello/world/models/HelloRequestOrBuilder.class
-grpc/hello/world/models/Person$1.class
 grpc/hello/world/models/GreeterGrpc$GreeterFutureStub.class
 grpc/hello/world/models/GreeterGrpc$1.class
 grpc/hello/world/models/GreeterGrpc$2.class
@@ -8,15 +7,11 @@ grpc/hello/world/models/GreeterGrpc$GreeterStub.class
 grpc/hello/world/models/GreeterGrpc$MethodHandlers.class
 grpc/hello/world/models/HelloRequest$1.class
 grpc/hello/world/models/GreeterGrpc$GreeterMethodDescriptorSupplier.class
-grpc/hello/world/models/PersonOuterClass.class
 grpc/hello/world/models/GreeterGrpc$GreeterBlockingStub.class
-grpc/hello/world/models/PersonOrBuilder.class
 grpc/hello/world/models/HelloWorld.class
 grpc/hello/world/models/GreeterGrpc$AsyncService.class
 grpc/hello/world/models/HelloReply.class
 grpc/hello/world/models/HelloReplyOrBuilder.class
-grpc/hello/world/models/Person.class
-grpc/hello/world/models/Person$Builder.class
 grpc/hello/world/models/HelloReply$1.class
 grpc/hello/world/models/GreeterGrpc$GreeterBaseDescriptorSupplier.class
 grpc/hello/world/models/HelloRequest.class

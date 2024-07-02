@@ -1,19 +1,19 @@
 package grpc.hello.world;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.ApplicationListener;
+import io.grpc.ServerBuilder;
 
-@SpringBootApplication
 public class Main {
 
-    public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(Main.class);
-        app.addListeners((ApplicationListener<ApplicationReadyEvent>) event -> {
-            System.out.println("Application started with gRPC port: " + event.getApplicationContext().getEnvironment().getProperty("grpc.server.port"));
-        });
-        app.run(args);
+    public static void main(String[] args) throws Exception{
+        var serverBuilder = ServerBuilder.forPort(6565)
+                .addService(new GreeterServiceImpl())
+                .build();
+
+        serverBuilder.start();
+
+        System.out.println("Application started with gRPC port: " + serverBuilder.getPort());
+
+        serverBuilder.awaitTermination();
     }
 
 }
